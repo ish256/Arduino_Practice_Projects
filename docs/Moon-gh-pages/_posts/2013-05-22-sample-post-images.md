@@ -26,8 +26,6 @@ Apply the `half` class like so to display two images side by side that share the
 
 {% highlight html %}
 <figure class="half">
-    <a href="/images/image-filename-1-large.jpg"><img src="/images/image-filename-1.jpg"></a>
-    <a href="/images/image-filename-2-large.jpg"><img src="/images/image-filename-2.jpg"></a>
     <figcaption>Caption describing these two images.</figcaption>
 </figure>
 {% endhighlight %}
@@ -35,8 +33,6 @@ Apply the `half` class like so to display two images side by side that share the
 And you'll get something that looks like this:
 
 <figure class="half">
-	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
-	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
 	<figcaption>Two images.</figcaption>
 </figure>
 
@@ -46,19 +42,13 @@ Apply the `third` class like so to display three images side by side that share 
 
 {% highlight html %}
 <figure class="third">
-	<img src="/images/image-filename-1.jpg">
-	<img src="/images/image-filename-2.jpg">
-	<img src="/images/image-filename-3.jpg">
 	<figcaption>Caption describing these three images.</figcaption>
 </figure>
 {% endhighlight %}
 
 And you'll get something that looks like this:
 
-<figure class="third">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
+<figure class="third">%}
 	<figcaption>Three images.</figcaption>
 </figure>
 
