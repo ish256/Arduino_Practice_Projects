@@ -1,7 +1,7 @@
 # Site
-title:              Aurduino Practice Projects
-bio:                'A blog documenting our Aurduino Learning'
-description:        "A blog documenting our Aurduino Learning"
+title:              Arduino Practice Projects
+bio:                'A blog documenting our Arduino Learning'
+description:        "A blog documenting our Arduino Learning"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
